@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gmail.olemuzyka.dphelper.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/hight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:hint="@string/height"
+            android:inputType="numberDecimal"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/error_high"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hight"
+            android:textSize="20sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorRed"/>
+
+        <EditText
+            android:id="@+id/wight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/error_high"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:hint="@string/width"
+            android:inputType="numberDecimal"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/error_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wight"
+            android:textSize="20sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorRed"/>
+
+        <EditText
+            android:id="@+id/inch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/error_width"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:hint="@string/inches"
+            android:inputType="numberDecimal"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/error_inches"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inch"
+            android:textSize="20sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorRed"/>
+
+        <TextView
+            android:id="@+id/resultsDp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/error_inches"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorRed"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/resultsX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resultsDp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorRed"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@id/calc_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resultsX"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/margin_for_button"
+            android:background="@color/colorBlue"
+            android:clickable="true"
+            android:padding="20sp"
+            android:text="@string/calculator"
+            android:textColor="@color/colorWight" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dp Helper</string>
+    <string name="dp_helper">dp Helper</string>
+    <string name="height">Height</string>
+    <string name="width">Width</string>
+    <string name="inches">Inches</string>
+    <string name="calculator">CALCULATOR</string>
+    <string name="fill_text">fill text</string>
+    <string name="calculate">CALCULATE</string>
+      <string name="folder_ldpi">drawable-ldpi</string>
+    <string name="folder_mdpi">drawable-mdpi</string>
+    <string name="folder_hdpi">drawable-hdpi</string>
+    <string name="folder_xhdpi">drawable-xhdpi</string>
+    <string name="folder_xxhdpi">drawable-xxhdpi</string>
+    <string name="folder_xxxhdpi">drawable-xxxhdpi</string>
+    <string name="button_clear">Button clear</string>
+    <string name="dpi">" dpi"</string>
+</resources>
